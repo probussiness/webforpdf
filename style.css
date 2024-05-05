@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    /* background-color: aqua; */
+    width: 80vw;
+    margin: auto;
+    font-size: 6vmin;
+    text-align: center;
+}
+.chemty h2{
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.chemty ul{
+    list-style: disc;
+    margin-left: 50px;
+}
+.chemty ul li a{
+    text-decoration: none;
+    color: red;
+}
+.chemty ul li{
+    margin-top: 20px;
+}
+nav{
+    /* width: 80vw; */
+    position: sticky;
+    top: 0px;
+    left: 10px;
+}
+nav div ul{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    background-color: aqua;
+}
+nav div ul li{
+    /* margin: 10px; */
+    padding: 2vmin;
+    background-color: violet;
+    border: 2px solid black;
+    border-radius: 20px;
+}
